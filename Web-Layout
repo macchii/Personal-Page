@@ -8,7 +8,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,8 +18,6 @@ header {
   font-size: 35px;
   color: white;
 }
-
-
 nav {
   float: left;
   width: 30%;
@@ -28,12 +25,9 @@ nav {
   background-color:#ccc;
   padding: 20px;
 }
-
-
 nav ul {
   list-style-type: none;
-  padding: 0;
-  
+  padding: 0;  
 }
 article {
   float: left;
@@ -53,7 +47,6 @@ footer {
   text-align: center;
   color: white;
 }
-
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -63,11 +56,9 @@ footer {
 </style>
 </head>
 <body>
-
 <header>
   <h2>Personal Page</h2>
 </header>
-
 <section>
   <nav>
     <ul>
@@ -83,7 +74,6 @@ footer {
     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
   </article>
 </section>
-
 <footer>
-  <p>template by: @macchiata_ </p>
+  <p>Template by: @macchiata_ </p>
 </footer>
